@@ -3,8 +3,8 @@ CC=gcc
 #CC=powerpc-linux-gcc
 CFLAGS=-Wall -g
 
-main: pcimem
+main: pcimem pcitest
 
 clean:
-	-rm -f *.o *~ core pcimem
+	-rm -f *.o *~ core pcimem pcitest
 
